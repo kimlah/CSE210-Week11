@@ -1,11 +1,11 @@
 """ imports """
 
 
-class Stats():
+class Asteroid():
     """  """
     
     def __init__(self):
-        """ The game stats
+        """Constructs a new Asteroid
         
         Args:
 

@@ -1,7 +1,7 @@
 class Point:
     """A distance from a relative origin (0, 0)."""
     
-    def __init__(self, x = 0, y = 0):
+    def __init__(self, x, y):
         """Constructs a new Point using the specified x and y values.
         
         Args:
@@ -50,6 +50,18 @@ class Point:
             An integer containing the y value or vertical distance.
         """
         return self._y
+
+    def scale(self, factor):
+        """
+        Scales the point by the provided factor.
+
+        Args:
+            factor (int): The amount to scale.
+            
+        Returns:
+            Point: A new Point that is scaled.
+        """
+        return Point(self._x * factor, self._y * factor)
 
     def multiply(self, factor):
         """

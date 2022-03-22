@@ -1,11 +1,11 @@
 """ imports """
 
 
-class Stats():
+class Ship():
     """  """
     
     def __init__(self):
-        """ The game stats
+        """Instance of the ship
         
         Args:
 
