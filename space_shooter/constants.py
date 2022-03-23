@@ -27,6 +27,13 @@ FONT_LARGE = 48
 
 # SOUND
 
+# SHIP
+SHIP_GROUP = "ships"
+SHIP_IMAGE = "space_shooter/assets/images/ship.png"
+SHIP_WIDTH = 28
+SHIP_HEIGHT = 39
+SHIP_RATE = 6
+SHIP_VELOCITY = 7
 
 # TEXT
 ALIGN_CENTER = 0
@@ -48,6 +55,8 @@ WHITE = Color(255, 255, 255)
 # KEYS
 LEFT = "left"
 RIGHT = "right"
+UP = "up"
+DOWN = "down"
 SPACE = "space"
 ENTER = "enter"
 PAUSE = "p"
