@@ -11,8 +11,8 @@ from game.casting.text import Text
 from game.scripting.draw_hud_action import DrawHudAction
 
 from game.scripting.play_sound_action import PlaySoundAction
-
-
+from game.scripting.draw_ship_action import DrawShipAction
+from game.scripting.move_ship_action import MoveShipAction
 from game.services.raylib.raylib_audio_service import RaylibAudioService
 from game.services.raylib.raylib_keyboard_service import RaylibKeyboardService
 from game.services.raylib.raylib_physics_service import RaylibPhysicsService
@@ -26,6 +26,9 @@ class SceneManager:
     KEYBOARD_SERVICE = RaylibKeyboardService()
     PHYSICS_SERVICE = RaylibPhysicsService()
     VIDEO_SERVICE = RaylibVideoService(GAME_NAME, SCREEN_WIDTH, SCREEN_HEIGHT)
+
+    DRAW_SHIP_ACTION= DrawShipAction(VIDEO_SERVICE)
+    MOVE_SHIP_ACTION = MoveShipAction()
 
 
 
