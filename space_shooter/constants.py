@@ -26,7 +26,19 @@ FONT_SMALL = 32
 FONT_LARGE = 48
 
 # SOUND
+GAME_OVER = "space_shooter/assets/sounds/game_over.mp3"
+LASER_HIT = "space_shooter/assets/sounds/laser_hit.mp3"
+LASER_SHOOT = "space_shooter/assets/sounds/laser_shoot.mp3"
+SHIP_CRASH = "space_shooter/assets/soundsship_crash.mp3"
+SPACE_MUSIC = "space_shooter/assets/sounds/space_music.mp3"
 
+# SHIP
+SHIP_GROUP = "ships"
+SHIP_IMAGE = "space_shooter/assets/images/ship.png"
+SHIP_WIDTH = 28
+SHIP_HEIGHT = 39
+SHIP_RATE = 6
+SHIP_VELOCITY = 7
 
 # TEXT
 ALIGN_CENTER = 0
@@ -48,6 +60,8 @@ PINK = Color = (219, 48, 105)
 # KEYS
 LEFT = "left"
 RIGHT = "right"
+UP = "up"
+DOWN = "down"
 SPACE = "space"
 ENTER = "enter"
 PAUSE = "p"
