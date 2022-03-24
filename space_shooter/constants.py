@@ -26,6 +26,11 @@ FONT_SMALL = 32
 FONT_LARGE = 48
 
 # SOUND
+GAME_OVER = "space_shooter/assets/sounds/game_over.mp3"
+LASER_HIT = "space_shooter/assets/sounds/laser_hit.mp3"
+LASER_SHOOT = "space_shooter/assets/sounds/laser_shoot.mp3"
+SHIP_CRASH = "space_shooter/assets/soundsship_crash.mp3"
+SPACE_MUSIC = "space_shooter/assets/sounds/space_music.mp3"
 
 # SHIP
 SHIP_GROUP = "ships"
