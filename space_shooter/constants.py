@@ -38,12 +38,12 @@ BLACK = Color(0, 0, 0)
 GREEN = Color(8, 160, 69)
 ORANGE = Color(255, 136, 17)
 PINK = Color = (219, 48, 105)
-PURPLE = Color(255, 0, 255)
-RED = Color(255, 27, 28)
-SKYBLUE = Color(66, 202, 253)
-TURQUOISE = Color(115, 238, 220)
-YELLOW = Color(255, 177, 0)
-WHITE = Color(255, 255, 255)
+# PURPLE = Color(255, 0, 255)
+# RED = Color(255, 27, 28)
+# SKYBLUE = Color(66, 202, 253)
+# TURQUOISE = Color(115, 238, 220)
+# YELLOW = Color(255, 177, 0)
+# WHITE = Color(255, 255, 255)
 
 # KEYS
 LEFT = "left"
@@ -89,6 +89,24 @@ SCORE_GROUP = "score"
 LEVEL_FORMAT = "LEVEL: {}"
 LIVES_FORMAT = "LIVES: {}"
 SCORE_FORMAT = "SCORE: {}"
+
+# ASTEROID
+ASTEROIDS_GROUP = "asteroid"
+ASTEROID_IMAGE1 = "space_shooter/assets/images/asteroid1.png"
+ASTEROID_IMAGE2 = "space_shooter/assets/images/asteroid2.png"
+ASTEROID_IMAGE3 = "space_shooter/assets/images/asteroid3.png"
+
+DEFAULT_ASTEROIDS = 20
+CELL_SIZE = 15
+FONT_SIZE = 15
+COLS = 60
+ROWS = 40
+
+ASTEROID_WIDTH = 20
+ASTEROID_HEIGHT = 10
+ASTEROID_DELAY = 0.5
+ASTEROID_RATE = 4
+ASTEROID_POINTS = 50
 
 # DIALOG
 DIALOG_GROUP = "dialogs"
